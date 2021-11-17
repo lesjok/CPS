@@ -1,0 +1,5 @@
+@media (min-width: 1300px) {
+.types-of-service__block:nth-last-child(n+8) {
+  display: flex;
+}
+}

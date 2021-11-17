@@ -1,0 +1,107 @@
+@media (min-width: 784px) {
+  .header__inner {
+  padding: 19px 24px;
+  min-width: 768px;
+}
+.menu-group--left {
+  display: flex;
+  justify-content: space-around;
+  width: 28%;
+  align-items: center;
+}
+.menu-group--right {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+.tel, .message, .account {
+  display: block;
+}
+.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon__tel {
+  position: absolute;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon__message {
+  position: absolute;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon__account {
+  position: absolute;
+}
+.divider-middle{
+  display: block;
+}
+.menu-link, .divider-middle, .logo {
+  justify-content: flex-start;
+}
+.service {
+  padding: 25px 40px 40px 24px;
+}
+.service__menu {
+  margin-left: -16px;
+}
+.service__description {
+  display: flex;
+  justify-content: space-between;
+}
+.service__description .description__text p {
+  padding: 0;
+  min-width: 312px;
+}
+.p__large {
+  display: block;
+}
+.description__photo {
+  border-radius: 5px;
+  min-width: 360px;
+  height: 208px;
+}
+.read-more, .show-more, .read-more__blocks {
+  display: block;
+}
+.show-more, .read-more__blocks {
+  margin-top: 24px;
+  padding-left: 60px;
+}
+.types-of-service__block:nth-child(n+4) {
+  display: none;
+}
+footer {
+  display: grid;
+  grid-template-columns: 35% 35% 25%;
+}
+footer p {
+  text-align: left;
+  margin: 0;
+}
+footer p:last-child {
+  text-align: right;
+}
+.popup__ordercall {
+  width: 440px;
+}
+.popup__cancelcall--btn {
+  position: absolute;
+  top: 25px;
+  left: -70px;
+}
+.ordercall__heading {
+  margin-top: -40px;
+}
+}
